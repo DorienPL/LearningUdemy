@@ -1,13 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System;
 using LearningUdemy.Gear;
-using LearningUdemy.Player;
-using LearningUdemy.Monsters;
+using LearningUdemy.Character;
+using LearningUdemy.Enemies;
+using LearningUdemy.Actions;
 
 var Doomslayer = new Weapon
 {
     weaponType = "Hammer",
-    weaponDamage = 50,
+    weaponDamage = 60,
     weaponPrice = 150,
     weaponRange = 2
 };
@@ -28,9 +29,10 @@ var OrcChief = new Monster
 {
     monsterType = "Orc",
     monsterHealth = 50,
+    monsterArmour = 10,
     monsterDamage = 20,
     monsterGoldPiece = 25
 };
-Player.DealDamage(OrcChief, Doomslayer, Patryk);
-Player.EarnMoney(OrcChief, Patryk);
+Combat.Fight(OrcChief, Doomslayer, Patryk);
+
 
