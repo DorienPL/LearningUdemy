@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Leveling\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Leveling\" />
+  </ItemGroup>
 </Project>

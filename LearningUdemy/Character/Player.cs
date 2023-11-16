@@ -13,6 +13,7 @@ namespace LearningUdemy.Character
         public string playerName;
         public string playerRace;
         public int playerHealthPoints;
-        public int playerGoldPieces;     
+        public int playerGoldPieces;
+        public int playerExp;
     }
 }

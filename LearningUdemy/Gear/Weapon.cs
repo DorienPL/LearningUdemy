@@ -10,13 +10,10 @@ namespace LearningUdemy.Gear
     {
         public string? weaponType;
         public int weaponDamage;
-        public int weaponRange;
         public double weaponPrice;
 
-        public void dealDamage()
-        {
-           
-
-        }
     }
+
+
 }
+

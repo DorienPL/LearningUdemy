@@ -13,5 +13,6 @@ namespace LearningUdemy.Enemies
         public int monsterHealth;
         public int monsterDamage;
         public int monsterGoldPiece;
+        public int monsterExp;
     }
 }
